@@ -1,0 +1,3 @@
+[submodule "sd_core"]
+	path = sd_core
+	url = https://github.com/Hyper-Node/sd_core.git
