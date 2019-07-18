@@ -13,15 +13,15 @@ introduced in the paper necessarily.
 Basically it creates several Latent Dirichlet Allocation (LDA) topics for the contexts around a certain word. 
 These sets of associated words are indicators for the senses the word is used. 
 
-## Data (Corpora) used
+## Data used
 For creating the LDA-model, a corpus with 1 million german words in form of full sentences from Uni-Leipzig (2011-mixed typical)
 was used. This corpus and corpora of several other languages can be found [here](http://wortschatz.uni-leipzig.de/en/download/).
-Format description on this corpus can be found [here](Format description: http://pcai056.informatik.uni-leipzig.de/downloads/corpora/Format_Download_File-eng.pdf)
+Format description on this corpus can be found [here](http://pcai056.informatik.uni-leipzig.de/downloads/corpora/Format_Download_File-eng.pdf)
 
 For later evaluation with decision on the meaning (WSD) an pre-annotated set of german words from Uni-Heidelberg can be used, 
 it can be found [here](http://projects.cl.uni-heidelberg.de/dewsd/files.shtml#gold)
 
-Several Word Sense Disambiguation Tasks where done as part of SemEval-Workshop, which is probably also a good source 
+Several Word Sense Disambiguation tasks were done as part of SemEval-Workshop, which is probably also a good source 
 for annotated corpora. 
 
 ## Basic Workflow
